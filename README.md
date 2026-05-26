@@ -42,4 +42,10 @@ This project demonstrates real-time task scheduling, inter-task communication us
 
 The system is split into two asynchronous execution paths communicating via a FreeRTOS Queue:
 
+## Demo
 
+Below is a demonstration of the system in action. When a button is pressed, the event is queued, and the motor executes a precise 300-step rotation before releasing the coils.
+
+### Visual Demonstration
+<video src="https://github.com/user-attachments/assets/f93ac3cb-3900-4f80-818f-365924ce830a" width="100%" controls>
+</video>
